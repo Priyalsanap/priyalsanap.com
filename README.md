@@ -1,1 +1,1 @@
-# priyalsanap.com
+# priyalsanap.info

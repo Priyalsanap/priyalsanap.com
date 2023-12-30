@@ -1,0 +1,857 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="{% static 'img/icon.png' %}" type="image/png">
+    <title>Priyal's Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'vendors/linericon/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="{% static 'vendors/owl-carousel/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+    <link rel="stylesheet" href="{% static 'vendors/nice-select/css/nice-select.css' %}">
+    <!-- main css -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+
+    {% include "portfolio/navbar.html" %}
+
+    <!--================ Start Home Banner Area =================-->
+    <!-- <section class="home_banner_area">
+		<div class="banner_inner">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-7">
+						<div class="banner_content">
+							<h3 class="text-uppercase">Hell0</h3>
+							<h1 class="text-uppercase">I am Priyal Sanap</h1>
+							<h5 class="text-uppercase">Product Analyst</h5>
+							<div class="d-flex align-items-center">
+								<a class="primary_btn" href="#"><span>Hire Me</span></a>
+								<a class="primary_btn tr-bg" href="#"><span>Get CV</span></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-5">
+						<div class="home_right_img">
+							<img class="" src="{% static 'img/banner/home-right.png' %}" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+    <!--================ End Home Banner Area =================-->
+
+    <!--================ Start About Us Area =================-->
+    <section class="about_area section_gap">
+        <!-- <br>
+        <br> -->
+        <div class="container">
+            <div class="row justify-content-start align-items-center" id="about-me">
+                <div class="col-lg-5">
+                    <div class="about_img">
+                        <img class="" src="{% static 'img/profile_photo1.jpg' %}" alt="">
+                    </div>
+                </div>
+
+                <div class="offset-lg-1 col-lg-5">
+                    <div class="main_title text-left">
+
+                        <h2>About Me</h2>
+
+                        <p>
+                            <!-- Hi there!
+                            <br>
+                            <br> -->
+                            I am Priyal Sanap , a data science and analytics enthusiast with three years of experience
+                            wrangling and analyzing data.
+                            This portfolio is a collection of my work and projects.
+                            <br>
+                            <!-- <br> -->
+                            I am a passionate learner and a curious soul. In my free time, I explore new data science
+                            concepts and work on personal projects.
+                            I also enjoy reading books, travelling and cooking.
+
+                        </p>
+
+
+
+
+                        <!-- <footer class="footer_area" id="footer-section" style="padding: 0%;justify-content: left;">
+                            <div class="container">
+
+                                <div class="footer_top flex-column">
+                                    <div class="footer_logo">
+                                        <h4>Follow Me</h4>
+                                    </div>
+                                    <div class="footer_social">
+
+                                        <a href="https://www.linkedin.com/in/priyal-sanap-6b7551186/"><i
+                                                class="fa fa-linkedin"></i></a>
+                                        <a href="https://github.com/Priyalsanap"><i class="fa fa-github"></i></a>
+                                        <a href="https://www.instagram.com/_priyalsanap/"><i
+                                                class="fa fa-instagram"></i></a>
+                                        <a href="#"><i class="fa fa-twitter"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </footer> -->
+
+
+                        <section class="header">
+
+                            <div class="profile-content">
+                                <h3 style="font-family: cursive;">Priyal Sanap</h3>
+                                <h4 class="desc" >Aspiring Data Scientist</h4>
+                                <ul class="social list-inline">
+                                    <li><a href="https://github.com/Priyalsanap" target="_blank"><i
+                                                class="fa fa-github line-items"></i></a>
+                                    </li>
+                                    <li><a href="https://www.linkedin.com/in/priyal-sanap-6b7551186/" target="_blank"><i
+                                                class="fa fa-linkedin line-items"></i></a></li>
+                                    <!-- <li><a href=""><i
+                                                class="fa fa-facebook line-items"></i></a>
+                                    </li> -->
+                                    <li><a href="https://www.instagram.com/_priyalsanap/" target="_blank"><i
+                                                class="fa fa-instagram line-items"></i></a></li>
+                                    <li><a href="#" target="_blank">
+                                            <i class="fa line-items">
+                                                <svg xmlns="http://www.w3.org/2000/svg" height="18" width="18"
+                                                    viewBox="0 0 512 512" fill="#ffffff">
+                                                    <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                                                    <path
+                                                        d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+                                                </svg>
+                                            </i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </section>
+
+                        <a class="primary_btn" style="margin: 1%;"
+                            href="https://drive.google.com/file/d/1WDmRJ_YNJPBx7LUUbVhEFt5a4UmJENrN/view?usp=sharing"
+                            target="_blank"><span>My Resume</span></a>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================ End About Us Area =================-->
+    <hr class="divider" />
+
+    <!--================ Start Features Area =================-->
+
+    <!-- FEATURES -->
+    <section class="resume py-2 d-lg-flex justify-content-center align-items-center" id="resume">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 col-12">
+                    <h2 class="mb-4">Experiences</h2>
+
+                    <div class="timeline">
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2022</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Product Manager</span><small>L&T Finance Ltd.</small></h3>
+                                <p>Proin ornare non purus ut rutrum. Nulla facilisi. Aliquam laoreet libero ac pharetra
+                                    feugiat. Cras ac fermentum nunc, a faucibus nunc.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2020</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>UX Designer</span><small>Digital Ace</small></h3>
+                                <p>Fusce rutrum augue id orci rhoncus molestie. Nunc auctor dignissim lacus vel iaculis.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2016</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>UI Freelancer</h3>
+                                <p>Sed fringilla vitae enim sit amet cursus. Sed cursus dictum tortor quis pharetra.
+                                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+                                    egestas.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2014</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Quantitative Finance Intern<small>Grayquest</small></h3>
+                                <p>Cras scelerisque scelerisque condimentum. Nullam at volutpat mi. Nunc auctor ipsum
+                                    eget magna consequat viverra.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-12">
+                    <h2 class="mb-4 mobile-mt-2">Educations</h2>
+
+                    <div class="timeline">
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2017</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Mobile Web</span><small>Master Design</small></h3>
+                                <p>Please tell your friends about Tooplate website. That would be very helpful. We need
+                                    your support.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2015</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>User Interfaces</span><small>Creative Agency</small></h3>
+                                <p><a rel="nofollow" href="https://www.facebook.com/tooplate">Tooplate</a> is a great
+                                    website to download HTML templates without any login or email.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2013</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Artwork Design</span><small>New Art School</small></h3>
+                                <p>You can freely use Tooplate's templates for your business or personal sites. You
+                                    cannot redistribute this template without a permission.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--================ End Features Area =================-->
+
+    <hr class="divider" />
+
+    <!--================ Start Features Area =================-->
+    <section class="features_area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <div class="main_title" id="projects-section">
+                        <h2>My Projects</h2>
+                        
+                        <p>
+                            Below is a list of projects I have completed during my ongoing <a
+                                href="https://www.udemy.com/course/100-days-of-code/?ranMID=39197&ranEAID=%2FjZHTpnCvx8&ranSiteID=_jZHTpnCvx8-5YcZkvbLRKNzz9zxsNHeYg&utm_source=aff-campaign&LSNPUBID=%2FjZHTpnCvx8&utm_medium=udemyads"
+                                , target="_blank">100
+                                days of code course</a>. <br> I have
+                            also included some of my personal projects.
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="row feature_inner">
+                <div class="col-lg-3 col-md-6">
+                    <div class="feature_item">
+                        <a href="{% url 'flashcard' %}">
+                            <img src="{% static 'img/services/flashcard.png' %}" alt="">
+                            <h5>Flashcard App</h5>
+                            <p class="de-link">This is a simple app to help anyone learn Spanish. It is a simple flash
+                                card
+                                app that shows a Spanish word and the user has to guess the English translation.
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="feature_item">
+                        <a href="https://github.com/Priyalsanap/markov-chain-text-generation">
+                            <img src="{% static 'img/services/markov.png' %}" alt="">
+                            <h5>Generate Text using Markov Chains</h5>
+                            <p class="de-link">In this app, the Markov chain is used to build transition probabilities
+                                of next words.
+                                The Markov model is then used to generate text based on the input words.</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="feature_item">
+                        <a href="{% url 'snake' %}">
+
+                            <img src="{% static 'img/services/snake.png' %}" alt="">
+                            <h5>Snake Game</h5>
+                            <p class="de-link">The objective of the game is to feed the snake with food that randomly
+                                appears on the screen.
+                                The game ends when the snake either collides with the wall or with itself.</p>
+                        </a>
+
+
+                    </div>
+                </div>
+                <!-- <div class="col-lg-3 col-md-6">
+                    <div class="feature_item">
+                        <img src="{% static 'img/services/s4.png' %}" alt="">
+                        <h4>seo optimize</h4>
+                        <p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <!--================ End Features Area =================-->
+
+<hr class="divider" />
+
+    <!--================Start Portfolio Area =================-->
+    <section class="portfolio_area" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="main_title text-center">
+                        <h2> Online Courses </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="filters portfolio-filter">
+                <ul>
+                    <!-- <li class="active" data-filter="*">all</li>
+                    <li data-filter=".Data-Science">Data Science</li>
+                    <li data-filter=".visualization"> Visualization</li>
+                    <li data-filter=".languages"> Coding Languages</li>
+                    <li data-filter=".devops">DevOps</li> -->
+
+
+                    <li class="active" data-filter="*"> <button class="btn btn-primary all">All</button> </li>
+                    <li data-filter=".Data-Science"> <button class="btn btn-outline-dark section1">Data Science</button>
+                    </li>
+                    <li data-filter=".visualization"> <button
+                            class="btn btn-outline-dark section2">Visualization</button></li>
+                    <li data-filter=".languages"><button class="btn btn-outline-dark section3">Coding Languages</button>
+                    </li>
+                    <li data-filter=".devops"><button class="btn btn-outline-dark section4">DevOps</button></li>
+                </ul>
+            </div>
+
+            <script>
+                // add on click event listener to all the buttons in the filters; when clicked, convert the button to primary and
+                // rest of the buttons to outline-dark
+
+                const buttons = document.querySelectorAll('.filters li button');
+                buttons.forEach(button => {
+                    button.addEventListener('click', function () {
+                        buttons.forEach(button => {
+                            button.classList.remove('btn-primary');
+                            button.classList.add('btn-outline-dark');
+                        });
+                        this.classList.remove('btn-outline-dark');
+                        this.classList.add('btn-primary');
+                    });
+                });
+            </script>
+
+
+            <div class="filters-content">
+                <div class="row justify-content-center portfolio-grid">
+                    <div class="col-lg-4 col-md-6 all Data-Science">
+                        <div class="portfolio_box">
+                            <div class="single_portfolio">
+                                <img class="img-fluid w-100"
+                                    src="{% static 'img/courses/Data_science_foundations.png' %}" alt="">
+                                <div class="overlay"></div>
+                                <a href="{% static 'img/courses/Data_science_foundations.png' %}" class="img-gal">
+                                    <div class="icon">
+                                        <span class="lnr lnr-cross"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="short_info">
+                                <h4><a href="#">Data Science Foundations</a></h4>
+                                <p>verify.mygreatlearning.com/ALGRPHHP</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 all Data-Science visualization">
+                        <div class="portfolio_box">
+                            <div class="single_portfolio">
+                                <img class="img-fluid w-100" src="{% static 'img/courses/powerBI.png' %}" alt="">
+                                <div class="overlay"></div>
+                                <a href="{% static 'img/courses/powerBI.png' %}" class="img-gal">
+                                    <div class="icon">
+                                        <span class="lnr lnr-cross"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="short_info">
+                                <h4><a href="#">Power BI</a></h4>
+                                <p>verify.mygreatlearning.com/GFDPZPYK</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 all devops">
+                        <div class="portfolio_box">
+                            <div class="single_portfolio">
+                                <img class="img-fluid w-100" src="{% static 'img/courses/Introduction_to_SQL.png' %}"
+                                    alt="">
+                                <div class="overlay"></div>
+                                <a href="{% static 'img/courses/Introduction_to_SQL.png' %}" class="img-gal">
+                                    <div class="icon">
+                                        <span class="lnr lnr-cross"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="short_info">
+                                <h4><a href="#">Introduction to SQL</a></h4>
+                                <p>Certification Code: 4747178</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 all languages">
+                        <div class="portfolio_box">
+                            <div class="single_portfolio">
+                                <img class="img-fluid w-100" src="{% static 'img/courses/Python_projects.png' %}"
+                                    alt="">
+                                <div class="overlay"></div>
+                                <a href="{% static 'img/courses/Python_projects.png' %}" class="img-gal">
+                                    <div class="icon">
+                                        <span class="lnr lnr-cross"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="short_info">
+                                <h4><a href="#">Python Projects</a></h4>
+                                <p>verify.mygreatlearning.com/KORUQSOE</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 all devops">
+                        <div class="portfolio_box">
+                            <div class="single_portfolio">
+                                <img class="img-fluid w-100" src="{% static 'img/courses/github.png' %}" alt="">
+                                <div class="overlay"></div>
+                                <a href="{% static 'img/courses/github.png' %}" class="img-gal">
+                                    <div class="icon">
+                                        <span class="lnr lnr-cross"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="short_info">
+                                <h4><a href="#">Git Training</a></h4>
+                                <p>Certification Code: 4749349</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 all Data-Science">
+                        <div class="portfolio_box">
+                            <div class="single_portfolio">
+                                <img class="img-fluid w-100"
+                                    src="{% static 'img/courses/statistical_methods_for_decision_making.png' %}" alt="">
+                                <div class="overlay"></div>
+                                <a href="{% static 'img/courses/statistical_methods_for_decision_making.png' %}"
+                                    class="img-gal">
+                                    <div class="icon">
+                                        <span class="lnr lnr-cross"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="short_info">
+                                <h4><a href="#">Statistical methods for decision making</a></h4>
+                                <p>verify.mygreatlearning.com/MAODKCFC</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 all Data-Science languages">
+                        <div class="portfolio_box">
+                            <div class="single_portfolio">
+                                <img class="img-fluid w-100" src="{% static 'img/courses/R_for_data_science.png' %}"
+                                    alt="">
+                                <div class="overlay"></div>
+                                <a href="{% static 'img/courses/R_for_data_science.png' %}" class="img-gal">
+                                    <div class="icon">
+                                        <span class="lnr lnr-cross"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="short_info">
+                                <h4><a href="#">R for data science</a></h4>
+                                <p>verify.mygreatlearning.com/GGXTAOAG</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 all Data-Science languages">
+                        <div class="portfolio_box">
+                            <div class="single_portfolio">
+                                <img class="img-fluid w-100"
+                                    src="{% static 'img/courses/machine_learning_with_Python.png' %}" alt="">
+                                <div class="overlay"></div>
+                                <a href="{% static 'img/courses/machine_learning_with_Python.png' %}" class="img-gal">
+                                    <div class="icon">
+                                        <span class="lnr lnr-cross"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="short_info">
+                                <h4><a href="#">Machine Learning with Python</a></h4>
+                                <p>verify.mygreatlearning.com/LDKRSULF</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 all upcoming Data-Science visualization">
+                        <div class="portfolio_box">
+                            <div class="single_portfolio">
+                                <img class="img-fluid w-100" src="{% static 'img/courses/tableau.png' %}" alt="">
+                                <div class="overlay"></div>
+                                <a href="{% static 'img/courses/tableau.png' %}" class="img-gal">
+                                    <div class="icon">
+                                        <span class="lnr lnr-cross"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="short_info">
+                                <h4><a href="#">Tabeau</a></h4>
+                                <p>verify.mygreatlearning.com/NPJCHBNQ</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 all devops">
+                        <div class="portfolio_box">
+                            <div class="single_portfolio">
+                                <img class="img-fluid w-100" src="{% static 'img/courses/cloud_foundations.png' %}"
+                                    alt="">
+                                <div class="overlay"></div>
+                                <a href="{% static 'img/courses/cloud_foundations.png' %}" class="img-gal">
+                                    <div class="icon">
+                                        <span class="lnr lnr-cross"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="short_info">
+                                <h4>Cloud Foundations</h4>
+                                <p>verify.mygreatlearning.com/JRDNXMGE</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================End Portfolio Area =================-->
+
+    <script>
+        // when clicked on any filter, remove the hidden class from all the elements
+
+        const filters = document.querySelectorAll('.filters li');
+        const portfolioItems = document.querySelectorAll('.portfolio_box');
+
+        filters.forEach(filter => {
+            filter.addEventListener('click', function () {
+                filters.forEach(filter => filter.classList.remove('active'));
+                this.classList.add('active');
+                console.log(this)
+                const selectedFilter = this.getAttribute('data-filter');
+
+                console.log(selectedFilter);
+
+                // if selectedFilter is .languages then remove .hidden_language from all the elements
+
+                if (selectedFilter == '.languages') {
+                    // get the elements with the class hidden
+                    hiddenElements = document.querySelectorAll('.hidden_language');
+
+                    // remove the hidden class from all the elements
+                    hiddenElements.forEach(element => {
+                        element.classList.remove('hidden_language');
+                    });
+                    console.log(hiddenElements);
+                    console.log('hidden elements removed');
+                } else {
+                    language_elements = document.querySelectorAll('.tobe-hid');
+
+                    language_elements.forEach(element => {
+                        element.classList.add('hidden_language');
+                    });
+                }
+
+
+            });
+        });
+
+
+    </script>
+
+<hr class="divider" />
+
+    <!--================ Srart Brand Area =================-->
+    <section class="brand_area section_gap_bottom">
+        <div class="container">
+            <div class="row justify-content-center" id="skills-section">
+                <div class="offset-lg--1 col-lg-5 col-md6">
+                    <div class="row feature_inner">
+
+                        <div id="skills-header">
+                            <div class="feature_item" id="skills-card">
+                                <img src="{% static 'img/services/code.png' %}" alt="">
+                                <h4>My Skills</h4>
+                                <p>Creeping for female light years that lesser can't evening heaven isn't bearing tree
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="row skills">
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="single-brand-item d-table">
+                                <div class="d-table-cell text-center">
+                                    <img src="{% static 'img/skills/python.png' %}" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="single-brand-item d-table">
+                                <div class="d-table-cell text-center">
+                                    <img src="{% static 'img/skills/sql.png' %}" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="single-brand-item d-table">
+                                <div class="d-table-cell text-center">
+                                    <img src="{% static 'img/skills/tableau.png' %}" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="single-brand-item d-table">
+                                <div class="d-table-cell text-center">
+                                    <img src="{% static 'img/skills/powerBi.png' %}" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="single-brand-item d-table">
+                                <div class="d-table-cell text-center">
+                                    <img src="{% static 'img/skills/js.png' %}" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="single-brand-item d-table">
+                                <div class="d-table-cell text-center">
+                                    <img src="{% static 'img/skills/aws.png' %}" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="single-brand-item d-table">
+                                <div class="d-table-cell text-center">
+                                    <img src="{% static 'img/skills/html.png' %}" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="single-brand-item d-table">
+                                <div class="d-table-cell text-center">
+                                    <img src="{% static 'img/skills/css.png' %}" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="single-brand-item d-table">
+                                <div class="d-table-cell text-center">
+                                    <img src="{% static 'img/skills/R.png' %}" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!--================ End Brand Area =================-->
+
+    <hr class="divider" />
+
+    <!--================ Start Testimonial Area =================-->
+    <div class="testimonial_area section_gap_bottom">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <div class="main_title">
+                        <h2>Testimonial</h2>
+                        <p>Is give may shall likeness made yielding spirit a itself togeth created after sea is in beast
+                            <br>
+                            beginning signs open god you're gathering ithe
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="testi_slider owl-carousel">
+                    <div class="testi_item">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <img src="{% static 'img/testimonials/t1.jpg' %}" alt="">
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="testi_text">
+                                    <h4>Elite Martin 1</h4>
+                                    <p>Him, made can't called over won't there on divide there male fish beast own his
+                                        day third seed sixth seas unto. Saw from </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testi_item">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <img src="{% static 'img/testimonials/t2.jpg' %}" alt="">
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="testi_text">
+                                    <h4>Davil Saden 1</h4>
+                                    <p>Him, made can't called over won't there on divide there male fish beast own his
+                                        day third seed sixth seas unto. Saw from </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testi_item">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <img src="{% static 'img/testimonials/t1.jpg' %}" alt="">
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="testi_text">
+                                    <h4>Elite Martin 2</h4>
+                                    <p>Him, made can't called over won't there on divide there male fish beast own his
+                                        day third seed sixth seas unto. Saw from </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testi_item">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <img src="{% static 'img/testimonials/t2.jpg' %}" alt="">
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="testi_text">
+                                    <h4>Davil Saden 2</h4>
+                                    <p>Him, made can't called over won't there on divide there male fish beast own his
+                                        day third seed sixth seas unto. Saw from </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testi_item">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <img src="{% static 'img/testimonials/t1.jpg' %}" alt="">
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="testi_text">
+                                    <h4>Elite Martin 3</h4>
+                                    <p>Him, made can't called over won't there on divide there male fish beast own his
+                                        day third seed sixth seas unto. Saw from </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testi_item">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <img src="{% static 'img/testimonials/t2.jpg' %}" alt="">
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="testi_text">
+                                    <h4>Davil Saden 4</h4>
+                                    <p>Him, made can't called over won't there on divide there male fish beast own his
+                                        day third seed sixth seas unto. Saw from </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--================ End Testimonial Area =================-->
+
+    <!--================ Start Newsletter Area =================-->
+    <!-- <section class="newsletter_area">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-12">
+                    <div class="subscription_box text-center">
+                        <h2 class="text-uppercase text-white">get update from anywhere</h2>
+                        <p class="text-white">
+                            Bearing Void gathering light light his eavening unto dont afraid.
+                        </p>
+                        <div class="subcribe-form" id="mc_embed_signup">
+                            <form target="_blank" novalidate="true"
+                                action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                                method="get" class="subscription relative">
+                                <input name="EMAIL" placeholder="Email address" onfocus="this.placeholder = ''"
+                                    onblur="this.placeholder = 'Email address'" required="" type="email">
+                                <div style="position: absolute; left: -5000px;">
+                                    <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value=""
+                                        type="text">
+                                </div>
+                                <button class="primary-btn hover d-inline">Get Started</button>
+                                <div class="info"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!--================ End Newsletter Area =================-->
+
+    {% include "portfolio/footer.html" %}
+</body>
+
+</html>
